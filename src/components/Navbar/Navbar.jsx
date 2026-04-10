@@ -7,13 +7,14 @@ function Navbar() {
   const { isOpen, toggle } = useMobileMenu();
 
   return (
-    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrollY > 50 ? "shadow-lg" : ""} bg-[#4a4a7a]`}>
+    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 bg-[#4a4a7a] ${scrollY > 50 ? "shadow-lg" : ""}`}>
+      
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         
         {/* Logo */}
-       <span className="text-white font-bold text-xl flex items-center gap-2">
-        <img src="/images/brazil.png" alt="Brasil" className="w-5 h-3 object-cover rounded-sm" />
-        {personalInfo.name}
+        <span className="text-white font-bold text-xl flex items-center gap-2">
+          <img src="/images/brazil.png" alt="Brasil" className="w-5 h-3 object-cover rounded-sm" />
+          {personalInfo.name}
         </span>
 
         {/* Links desktop */}
@@ -39,6 +40,7 @@ function Navbar() {
           <li><a href="#contact" onClick={toggle} className="hover:text-purple-300 transition-colors">Contato</a></li>
         </ul>
       )}
+
     </nav>
   );
 }

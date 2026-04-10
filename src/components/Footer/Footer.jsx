@@ -8,6 +8,7 @@ function Footer() {
         <a
           href={personalInfo.github}
           target="_blank"
+          rel="noopener noreferrer"
           className="text-[#9090c0] hover:text-purple-400 transition-colors"
         >
           Marco Ricardo

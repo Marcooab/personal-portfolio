@@ -4,7 +4,7 @@ import personalInfo from "../../data/personalInfo";
 
 function Skills() {
   return (
-    <section id="skills" className="bg-gray-900 pt-12 pb-0 overflow-hidden">
+    <section id="skills" className="bg-gray-900 py-16 overflow-hidden">
       <div className="max-w-5xl mx-auto px-4">
 
         {/* Título */}
@@ -30,7 +30,7 @@ function Skills() {
               href={personalInfo.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#4a4a7a] hover:bg-[#5a5a9a] text-white font-semibold px-6 py-3 transition-colors duration-300 rounded"
+              className="bg-[#4a4a7a] hover:bg-[#5a5a9a] text-white font-semibold px-6 py-3 rounded transition-colors duration-300"
             >
               Repositório GITHUB 🐙
             </a>
@@ -45,14 +45,7 @@ function Skills() {
 
         </div>
       </div>
-      <div className="overflow-hidden leading-none block mb-[-1px]">
-  <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style={{ width: "101%", marginLeft: "-0.5%" }}>
-    <path fill="#ffffff" d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" />
-  </svg>
-</div>
-
     </section>
-    
   );
 }
 

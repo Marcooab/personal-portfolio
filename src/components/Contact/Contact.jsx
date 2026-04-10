@@ -22,7 +22,7 @@ function Contact() {
   }
 
   return (
-    <section id="contact" className="bg-white pt-12 pb-0 overflow-hidden">
+    <section id="contact" className="bg-white py-16 overflow-hidden">
       <div className="max-w-5xl mx-auto px-4">
 
         {/* Título */}
@@ -88,23 +88,26 @@ function Contact() {
                 onChange={handleChange}
                 className="w-full border border-gray-300 text-gray-900 px-4 py-3 outline-none focus:ring-2 focus:ring-[#4a4a7a]"
               />
-             <button
+              <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-[#4a4a7a] hover:bg-[#5a5a9a] disabled:opacity-50 text-white font-semibold py-3 transition-colors duration-300 rounded mb-8"
-                >
+                className="w-full bg-[#4a4a7a] hover:bg-[#5a5a9a] disabled:opacity-50 text-white font-semibold py-3 rounded transition-colors duration-300"
+              >
                 {isSubmitting ? "Enviando..." : "Enviar"}
-             </button>
+              </button>
             </form>
           </div>
 
         </div>
       </div>
-    <div className="overflow-hidden leading-none block mb-[-1px]">
-  <svg viewBox="0 0 1440 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style={{ width: "101%", marginLeft: "-0.5%" }}>
-    <path fill="#000000" d="M0,20 C360,40 1080,0 1440,20 L1440,40 L0,40 Z" />
-  </svg>
-</div>
+
+      {/* Wave para Footer */}
+      <div className="overflow-hidden leading-none block mb-[-1px] mt-16">
+        <svg viewBox="0 0 1440 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style={{ width: "101%", marginLeft: "-0.5%" }}>
+          <path fill="#000000" d="M0,20 C360,40 1080,0 1440,20 L1440,40 L0,40 Z" />
+        </svg>
+      </div>
+
     </section>
   );
 }

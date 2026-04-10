@@ -7,7 +7,11 @@ function Hero() {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ["Desenvolvedor Web Full Stack", "Formado em Análise e Desenvolvimento de Sistemas", "AI Enthusiast"],
+      strings: [
+        "Desenvolvedor Web Full Stack",
+        "Formado em Análise e Desenvolvimento de Sistemas",
+        "AI Enthusiast",
+      ],
       typeSpeed: 80,
       backSpeed: 50,
       loop: true,
@@ -22,7 +26,6 @@ function Hero() {
       className="min-h-screen flex flex-col bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/images/background.jpeg')" }}
     >
-      {/* Conteúdo centrado */}
       <div className="flex-1 flex items-center px-16">
         <div className="text-white">
           <p className="text-lg md:text-xl mb-2">Olá, meu nome é</p>
@@ -33,7 +36,10 @@ function Hero() {
             Eu sou{" "}
             <span ref={typedRef} className="text-purple-400"></span>
           </p>
-          <a href="#contact" className="bg-[#4a4a7a] hover:bg-[#5a5a9a] text-white font-semibold px-8 py-3 transition-colors duration-300 rounded">
+          <a
+            href="#contact"
+            className="bg-[#4a4a7a] hover:bg-[#5a5a9a] text-white font-semibold px-8 py-3 rounded transition-colors duration-300"
+          >
             Contratar-me
           </a>
         </div>
