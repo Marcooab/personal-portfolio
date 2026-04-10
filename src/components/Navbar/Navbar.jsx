@@ -7,7 +7,7 @@ function Navbar() {
   const { isOpen, toggle } = useMobileMenu();
 
   return (
-    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 bg-[#4a4a7a] ${scrollY > 50 ? "shadow-lg" : ""}`}>
+    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrollY > 50 ? "bg-[#4a4a7a] shadow-lg" : "bg-transparent"}`}>
       
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         

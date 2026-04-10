@@ -100,14 +100,6 @@ function Contact() {
 
         </div>
       </div>
-
-      {/* Wave para Footer */}
-      <div className="overflow-hidden leading-none block mb-[-1px] mt-16">
-        <svg viewBox="0 0 1440 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style={{ width: "101%", marginLeft: "-0.5%" }}>
-          <path fill="#000000" d="M0,20 C360,40 1080,0 1440,20 L1440,40 L0,40 Z" />
-        </svg>
-      </div>
-
     </section>
   );
 }
