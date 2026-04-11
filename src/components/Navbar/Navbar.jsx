@@ -22,6 +22,7 @@ function Navbar() {
           <li><a href="#home" className="hover:text-purple-300 transition-colors">Inicio</a></li>
           <li><a href="#about" className="hover:text-purple-300 transition-colors">Sobre</a></li>
           <li><a href="#skills" className="hover:text-purple-300 transition-colors">Skills</a></li>
+          <li><a href="#projects" className="hover:text-purple-300 transition-colors">Projetos</a></li>
           <li><a href="#contact" className="hover:text-purple-300 transition-colors">Contato</a></li>
         </ul>
 
@@ -37,6 +38,7 @@ function Navbar() {
           <li><a href="#home" onClick={toggle} className="hover:text-purple-300 transition-colors">Inicio</a></li>
           <li><a href="#about" onClick={toggle} className="hover:text-purple-300 transition-colors">Sobre</a></li>
           <li><a href="#skills" onClick={toggle} className="hover:text-purple-300 transition-colors">Skills</a></li>
+          <li><a href="#projects" onClick={toggle} className="hover:text-purple-300 transition-colors">Projetos</a></li>
           <li><a href="#contact" onClick={toggle} className="hover:text-purple-300 transition-colors">Contato</a></li>
         </ul>
       )}
