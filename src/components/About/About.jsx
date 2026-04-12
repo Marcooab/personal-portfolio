@@ -27,9 +27,6 @@ function About() {
 
           {/* Texto */}
           <div className="md:w-1/2">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">
-              Meu nome é Marco e sou
-            </h3>
             <p className="text-gray-700 leading-relaxed mb-8 text-justify">
               {personalInfo.about}
             </p>
