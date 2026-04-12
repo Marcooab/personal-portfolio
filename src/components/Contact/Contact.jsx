@@ -2,9 +2,9 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import personalInfo from "../../data/personalInfo";
 
-const EMAILJS_SERVICE_ID = "service_721wq9w";
-const EMAILJS_TEMPLATE_ID = "template_fi0jw1r";
-const EMAILJS_PUBLIC_KEY = "34x4jTMUC7vF0uIOb";
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 function Toast({ status, onClose }) {
   if (!status) return null;
@@ -70,7 +70,6 @@ function Contact() {
       setStatus("error");
     } finally {
       setIsSubmitting(false);
-      // fecha o toast automaticamente após 5 segundos
       setTimeout(() => setStatus(null), 5000);
     }
   }
@@ -82,7 +81,6 @@ function Contact() {
       <section id="contact" className="bg-white py-16 overflow-hidden">
         <div className="max-w-5xl mx-auto px-4">
 
-          {/* Título */}
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
               Contato
@@ -92,7 +90,6 @@ function Contact() {
 
           <div className="grid md:grid-cols-2 gap-12">
 
-            {/* Informações */}
             <div className="space-y-6">
               <h3 className="text-xl font-bold text-gray-900">Fale Comigo</h3>
               <p className="text-gray-600">
@@ -107,7 +104,6 @@ function Contact() {
               </div>
             </div>
 
-            {/* Formulário */}
             <div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Mensagem</h3>
               <form onSubmit={handleSubmit} className="space-y-4">

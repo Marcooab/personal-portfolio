@@ -19,7 +19,7 @@ function About() {
           {/* Foto */}
           <div className="md:w-1/2">
             <img
-              src="/images/profile.jpg"
+              src="./images/profile.jpg"
               alt="Marco Aurélio Ricardo"
               className="w-2/3 object-cover rounded-md"
             />

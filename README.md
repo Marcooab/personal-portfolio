@@ -11,8 +11,10 @@ A rebuild of my personal portfolio using modern web technologies, maintaining th
 ## ✨ Features
 - Built with React components
 - Tailwind CSS v4
-- Typed.js text animation
+- Typed.js text animation with dynamic icons
 - Custom hooks (useScrollPosition, useMobileMenu)
+- Projects carousel with animated cards
+- Skills section with tech icons
+- EmailJS contact form with toast notification
 - Responsive design
-- EmailJS contact form (coming soon)
-- Projects section (coming soon)
+- Deployed on GitHub Pages

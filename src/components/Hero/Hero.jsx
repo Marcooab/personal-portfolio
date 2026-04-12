@@ -177,7 +177,7 @@ function Hero() {
     <section
       id="home"
       className="min-h-screen flex flex-col bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/images/background.jpeg')" }}
+      style={{ backgroundImage: "url('./images/background.jpeg')" }}
     >
       <div className="flex-1 flex items-center px-16">
         <div className="text-white">

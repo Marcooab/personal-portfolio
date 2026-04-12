@@ -8,7 +8,7 @@ const projects = [
     live: null,
     color: "#9090c0",
     bg: "#1e1e35",
-    image: "/images/projects/personalPortfolio.jpg",
+    image: "./images/projects/personalPortfolio.jpg",
     imagePosition: "left center",
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     live: "https://marcooab.github.io/GitHubFinder/",
     color: "#e0e0ff",
     bg: "#1a1a2e",
-    image: "/images/projects/githubFinder.jpg",
+    image: "./images/projects/githubFinder.jpg",
     imagePosition: "center",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     live: null,
     color: "#4db33d",
     bg: "#0e2010",
-    image: "/images/projects/fullStackCRUD.jpg",
+    image: "./images/projects/fullStackCRUD.jpg",
     imagePosition: "center",
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     live: "https://marcooab.github.io/ownPortfolio/",
     color: "#e07b39",
     bg: "#2e1a0e",
-    image: "/images/projects/ownPortfolio.jpg",
+    image: "./images/projects/ownPortfolio.jpg",
     imagePosition: "left center",
   },
   {
@@ -68,7 +68,7 @@ const projects = [
     live: "https://marcooab.github.io/open_weather/",
     color: "#61bfff",
     bg: "#0e1e2e",
-    image: "/images/projects/weather.jpg",
+    image: "./images/projects/weather.jpg",
     imagePosition: "center",
   },
 ];
